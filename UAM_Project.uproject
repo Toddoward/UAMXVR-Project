@@ -4,11 +4,11 @@
 	"Category": "",
 	"Description": "",
 	"Modules": [
-    {
-      "LoadingPhase": "Default",
-      "Name": "UAMXVRProject",
-      "Type": "Runtime"
-    }
+		{
+			"Name": "UAM_Project",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
 	],
 	"Plugins": [
 		{
@@ -18,11 +18,10 @@
 				"Editor"
 			]
 		},
-    {
-      "Name": "AirSim",
-      "Enabled": true
-    }
-
+		{
+			"Name": "AirSim",
+			"Enabled": true
+		}
 	],
 	"TargetPlatforms": [
 		"Linux",
@@ -31,5 +30,4 @@
 		"Windows",
 		"WindowsNoEditor"
 	]
-
 }

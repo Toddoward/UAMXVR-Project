@@ -4,12 +4,3 @@
 
 #include "CoreMinimal.h"
 
-/**
- * 
- */
-class UAMXVRPROJECT_API EmptyClass
-{
-public:
-	EmptyClass();
-	~EmptyClass();
-};

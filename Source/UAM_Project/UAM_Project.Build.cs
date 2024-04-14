@@ -1,10 +1,10 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// Fill out your copyright notice in the Description page of Project Settings.
 
 using UnrealBuildTool;
 
-public class UAMXVRProject : ModuleRules
+public class UAM_Project : ModuleRules
 {
-	public UAMXVRProject(ReadOnlyTargetRules Target) : base(Target)
+	public UAM_Project(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
