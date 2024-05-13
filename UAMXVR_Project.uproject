@@ -17,6 +17,17 @@
 			"TargetAllowList": [
 				"Editor"
 			]
+		},
+		{
+			"Name": "AirSim",
+			"Enabled": true
 		}
+	],
+	"TargetPlatforms": [
+		"Linux",
+		"Mac",
+		"MacNoEditor",
+		"Windows",
+		"WindowsNoEditor"
 	]
 }
