@@ -1,0 +1,3378 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.2.1"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 6,
+			"type": "SCALAR",
+			"componentType": 5121
+		},
+		{
+			"bufferView": 1,
+			"count": 4,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -0.5, -8.04061311e-17, -0.5 ],
+			"max": [ 0.5, 8.04061311e-17, 0.5 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 4,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 4,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 4,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 4,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 6,
+			"count": 144,
+			"type": "SCALAR",
+			"componentType": 5121
+		},
+		{
+			"bufferView": 7,
+			"count": 54,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -0.5, -3.0616168e-17, -0.5 ],
+			"max": [ 0.5, 1, 0.5 ]
+		},
+		{
+			"bufferView": 8,
+			"count": 54,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 9,
+			"count": 54,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 10,
+			"count": 54,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 11,
+			"count": 54,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "21.352856.bin",
+			"byteLength": 3400
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 6,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 48,
+			"byteOffset": 8,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 48,
+			"byteOffset": 56,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 64,
+			"byteOffset": 104,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 32,
+			"byteOffset": 168,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 32,
+			"byteOffset": 200,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 144,
+			"byteOffset": 232,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 648,
+			"byteOffset": 376,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 648,
+			"byteOffset": 1024,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 864,
+			"byteOffset": 1672,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 432,
+			"byteOffset": 2536,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 432,
+			"byteOffset": 2968,
+			"target": 34962
+		}
+	],
+	"materials": [
+		{
+			"name": "WindVectorMaterial",
+			"pbrMetallicRoughness":
+			{
+				"baseColorFactor": [ 0, 0, 0, 0.5 ],
+				"metallicFactor": 0,
+				"roughnessFactor": 0.5
+			},
+			"emissiveFactor": [ 0, 0, 1 ],
+			"alphaMode": "BLEND"
+		}
+	],
+	"meshes": [
+		{
+			"name": "Plane",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		},
+		{
+			"name": "Shape_Cube",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 7,
+						"NORMAL": 8,
+						"TANGENT": 9,
+						"TEXCOORD_0": 10,
+						"TEXCOORD_1": 11
+					},
+					"indices": 6,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "BP_ApproximalCityLand0",
+			"translation": [ 289.169891, 0, -23.2125282 ],
+			"scale": [ 761.080139, 0, 654.504944 ],
+			"children": [ 1 ]
+		},
+		{
+			"name": "Plane",
+			"scale": [ 1, 0, 0.99999994 ],
+			"mesh": 0
+		},
+		{
+			"name": "BP_ApproximalBuilding0",
+			"translation": [ 180.979858, -0.5, -270.600433 ],
+			"rotation": [ 0, 0.653172851, -0, 0.757208824 ],
+			"scale": [ 24.3461857, 21.2881985, 13.2546816 ],
+			"children": [ 3 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding1",
+			"translation": [ 265.52356, -0.5, -283.393555 ],
+			"rotation": [ -0, -0.740951121, 0, 0.671558976 ],
+			"scale": [ 23.9852905, 19.0112019, 11.3931494 ],
+			"children": [ 5 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding2",
+			"translation": [ 213.248779, -0.5, -259.050568 ],
+			"rotation": [ -0, -0.0735645741, 0, 0.997290552 ],
+			"scale": [ 22.4766598, 41.9015961, 22.4766598 ],
+			"children": [ 7 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding3",
+			"translation": [ 243.678299, -0.5, -252.957703 ],
+			"rotation": [ -0, -0.0490676835, 0, 0.998795569 ],
+			"scale": [ 11.3931494, 19.0112019, 23.9852905 ],
+			"children": [ 9 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding4",
+			"translation": [ 241.5, -0.5, -286.600006 ],
+			"rotation": [ 0, 0.653172851, -0, 0.757208824 ],
+			"scale": [ 24.2270565, 20.8862324, 12.4585104 ],
+			"children": [ 11 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding5",
+			"translation": [ 116.299995, -0.5, 7.0999999 ],
+			"rotation": [ 0, 0.290284663, -0, 0.956940353 ],
+			"scale": [ 20.37533, 24.7925663, 24.1819839 ],
+			"children": [ 13 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding6",
+			"translation": [ 45.2000008, -0.5, -1.89999998 ],
+			"rotation": [ 0, 0.792356193, -0, 0.610058725 ],
+			"scale": [ 24.8616238, 15.1485281, 14.933362 ],
+			"children": [ 15 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding7",
+			"translation": [ 92, -0.5, -35.2000008 ],
+			"rotation": [ 0, 0.219101265, -0, 0.975702226 ],
+			"scale": [ 18.8942604, 18.4782085, 25.2548485 ],
+			"children": [ 17 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding8",
+			"translation": [ 28.7999992, -0.5, -95.5 ],
+			"rotation": [ 0, 0.773010433, -0, 0.634393275 ],
+			"scale": [ 23.2675343, 48.0708961, 23.2675343 ],
+			"children": [ 19 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding9",
+			"translation": [ 62.7999992, -0.5, -65.0999985 ],
+			"rotation": [ 0, 0.0980171412, -0, 0.99518472 ],
+			"scale": [ 14.2491808, 18.4782085, 24.7385254 ],
+			"children": [ 21 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding10",
+			"translation": [ 74.4000015, -0.5, -49.2999992 ],
+			"rotation": [ -0, -0.634393275, 0, 0.773010433 ],
+			"scale": [ 24.3718262, 33.3000145, 13.4795818 ],
+			"children": [ 23 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding11",
+			"translation": [ 103.199997, -0.5, -13.7999992 ],
+			"rotation": [ 0, 0.266712755, -0, 0.963776052 ],
+			"scale": [ 19.7827435, 31.478756, 24.6033154 ],
+			"children": [ 25 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding12",
+			"translation": [ 252.959137, -0.5, -148.995514 ],
+			"rotation": [ -0, -0.0980171412, 0, 0.99518472 ],
+			"scale": [ 13.6550283, 15.1485281, 24.6246052 ],
+			"children": [ 27 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding13",
+			"translation": [ 242.159134, -0.5, -228.495499 ],
+			"rotation": [ -0, -0.024541229, 0, 0.999698818 ],
+			"scale": [ 10.4262772, 15.1485281, 23.686018 ],
+			"children": [ 29 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding14",
+			"translation": [ 209.238068, -0.5, -203.125992 ],
+			"rotation": [ 0, 0.689540565, -0, 0.724247098 ],
+			"scale": [ 23.4484768, 33.3000145, 10.2822142 ],
+			"children": [ 31 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding15",
+			"translation": [ 200.899994, -0.5, -127 ],
+			"rotation": [ -0, -0.740951121, 0, 0.671558976 ],
+			"scale": [ 21.6316357, 70.1181488, 21.6316357 ],
+			"children": [ 33 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding16",
+			"translation": [ 217.35257, -0.5, -183.783096 ],
+			"rotation": [ 0, 0.689540565, -0, 0.724247098 ],
+			"scale": [ 23.620512, 19.0112019, 10.2906656 ],
+			"children": [ 35 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding17",
+			"translation": [ 229.878235, -0.5, -143.583389 ],
+			"rotation": [ 0, 0.998795569, -0, 0.049067691 ],
+			"scale": [ 20.9677124, 44.8287621, 20.9677124 ],
+			"children": [ 37 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding18",
+			"translation": [ 205.930832, -0.5, -236.549911 ],
+			"rotation": [ -0, -0.024541229, 0, 0.999698818 ],
+			"scale": [ 10.2903271, 31.478756, 23.6136322 ],
+			"children": [ 39 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding19",
+			"translation": [ 241.059128, -0.5, -182.295502 ],
+			"rotation": [ 0, 0.707106829, -0, 0.707106829 ],
+			"scale": [ 23.2578869, 15.1485281, 9.29626465 ],
+			"children": [ 41 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding20",
+			"translation": [ 249.499832, -0.5, -123.568893 ],
+			"rotation": [ 0, 0.998795569, -0, 0.0490676723 ],
+			"scale": [ 11.3931494, 19.0112019, 23.9852905 ],
+			"children": [ 43 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding21",
+			"translation": [ 258.139252, -0.5, -173.563553 ],
+			"rotation": [ -0, -0.122410677, 0, 0.992479563 ],
+			"scale": [ 14.525631, 19.0112019, 24.7301121 ],
+			"children": [ 45 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding22",
+			"translation": [ 233.878235, -0.5, -205.783386 ],
+			"rotation": [ 0, 0.998795569, -0, 0.049067691 ],
+			"scale": [ 20.9677124, 44.8287621, 20.9677124 ],
+			"children": [ 47 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding23",
+			"translation": [ 198.956421, -0.5, -176.906525 ],
+			"rotation": [ 0, 0.998795569, -0, 0.0490676984 ],
+			"scale": [ 12.1345015, 31.8248653, 24.1120491 ],
+			"children": [ 49 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding24",
+			"translation": [ 197.13031, -0.5, -152.303497 ],
+			"rotation": [ 0, 0.999698818, -0, 0.0245412719 ],
+			"scale": [ 10.290329, 31.478756, 23.6136322 ],
+			"children": [ 51 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding25",
+			"translation": [ 192.758224, -0.5, -0.0823106095 ],
+			"rotation": [ -0, -0.956940353, 0, 0.290284663 ],
+			"scale": [ 21.1528835, 18.4782085, 24.8362522 ],
+			"children": [ 53 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding26",
+			"translation": [ 154.599991, -0.5, -63.3999977 ],
+			"rotation": [ 0, 0.831469595, -0, 0.555570245 ],
+			"scale": [ 25.8535004, 41.9015961, 25.8535004 ],
+			"children": [ 55 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding27",
+			"translation": [ 201.743729, -0.5, -43.9477768 ],
+			"rotation": [ -0, -0.975702167, 0, 0.219101191 ],
+			"scale": [ 18.1994381, 31.478756, 24.8831215 ],
+			"children": [ 57 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding28",
+			"translation": [ 211.354462, -0.5, -20.1543465 ],
+			"rotation": [ 0, 0.195090294, -0, 0.98078531 ],
+			"scale": [ 17.4890347, 15.1485281, 25.0450115 ],
+			"children": [ 59 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding29",
+			"translation": [ 169.899994, -0.5, -43.2999992 ],
+			"rotation": [ 0, 0.195090353, -0, 0.98078537 ],
+			"scale": [ 17.3436775, 19.0112019, 24.9396019 ],
+			"children": [ 61 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding30",
+			"translation": [ 244.899841, -0.5, -87.268898 ],
+			"rotation": [ 0, 0.997290552, -0, 0.0735645518 ],
+			"scale": [ 12.4681854, 19.0112019, 24.2922859 ],
+			"children": [ 63 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding31",
+			"translation": [ 237.099991, -0.5, -39.5999985 ],
+			"rotation": [ -0, -0.0980171412, 0, 0.99518472 ],
+			"scale": [ 13.4795828, 33.3000145, 24.3718262 ],
+			"children": [ 65 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding32",
+			"translation": [ 191.756424, -0.5, -66.5065155 ],
+			"rotation": [ -0, -0.98078531, 0, 0.195090309 ],
+			"scale": [ 18.0478153, 31.8248653, 25.2730026 ],
+			"children": [ 67 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding33",
+			"translation": [ 170.899994, -0.5, -103.199997 ],
+			"rotation": [ 0, 0.195090353, -0, 0.98078537 ],
+			"scale": [ 25.4625587, 68.1317368, 25.4625587 ],
+			"children": [ 69 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding34",
+			"translation": [ 180.607712, -0.5, -21.4878483 ],
+			"rotation": [ 0, 0.242980182, -0, 0.970031261 ],
+			"scale": [ 19.0172424, 19.0112019, 24.7791348 ],
+			"children": [ 71 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding35",
+			"translation": [ 223.243729, -0.5, -90.7477722 ],
+			"rotation": [ 0, 0.817584813, -0, 0.575808227 ],
+			"scale": [ 24.9232883, 31.478756, 16.4408646 ],
+			"children": [ 73 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding36",
+			"translation": [ 229.443726, -0.5, -112.747772 ],
+			"rotation": [ -0, -0.59569931, 0, 0.803207517 ],
+			"scale": [ 24.8532963, 31.478756, 15.5010824 ],
+			"children": [ 75 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding37",
+			"translation": [ 237.299988, -0.5, -64.5999985 ],
+			"rotation": [ -0, -0.0735645741, 0, 0.997290552 ],
+			"scale": [ 21.7868004, 44.8287621, 21.7868004 ],
+			"children": [ 77 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding38",
+			"translation": [ 205.459152, -0.5, -105.854736 ],
+			"rotation": [ -0, -0.59569931, 0, 0.803207517 ],
+			"scale": [ 24.9549732, 15.1485281, 15.647378 ],
+			"children": [ 79 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding39",
+			"translation": [ 277.13913, -0.5, -250.114349 ],
+			"rotation": [ -0, -0.0490676835, 0, 0.998795569 ],
+			"scale": [ 21.3045368, 68.1317368, 21.3045368 ],
+			"children": [ 81 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding40",
+			"translation": [ 289.711029, -0.5, -280.852478 ],
+			"rotation": [ -0, -0.740951121, 0, 0.671558976 ],
+			"scale": [ 23.8589344, 32.6304741, 11.3807039 ],
+			"children": [ 83 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding41",
+			"translation": [ 386.100006, -0.5, -338 ],
+			"rotation": [ -0, -0.266712755, 0, 0.963776052 ],
+			"scale": [ 19.7210102, 32.6304741, 24.5003204 ],
+			"children": [ 85 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding42",
+			"translation": [ 360.400818, -0.5, -294.404541 ],
+			"rotation": [ 0, 0.985277653, -0, 0.170961872 ],
+			"scale": [ 16.4431858, 19.0112019, 24.9297752 ],
+			"children": [ 87 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding43",
+			"translation": [ 360.100006, -0.5, -274.100006 ],
+			"rotation": [ -0, -0.740951121, 0, 0.671558976 ],
+			"scale": [ 24.1120491, 31.8248653, 12.1345005 ],
+			"children": [ 89 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding44",
+			"translation": [ 377, -0.5, -314.5 ],
+			"rotation": [ -0, -0.266712755, 0, 0.963776052 ],
+			"scale": [ 26.7345238, 64.940979, 26.7345238 ],
+			"children": [ 91 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding45",
+			"translation": [ 478.899994, -0.5, -260.199982 ],
+			"rotation": [ 0, 0.653172851, -0, 0.757208824 ],
+			"scale": [ 24.2270565, 20.8862324, 12.4585104 ],
+			"children": [ 93 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding46",
+			"translation": [ 503.699982, -0.5, -256.799988 ],
+			"rotation": [ 0, 0.653172851, -0, 0.757208824 ],
+			"scale": [ 24.1666927, 32.6304741, 12.4495564 ],
+			"children": [ 95 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding47",
+			"translation": [ 310.413757, -0.5, -164.485565 ],
+			"rotation": [ -0, -0.0490676835, 0, 0.998795569 ],
+			"scale": [ 21.6316357, 48.0708961, 21.6316357 ],
+			"children": [ 97 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding48",
+			"translation": [ 386.600006, -0.5, -232.899994 ],
+			"rotation": [ -0, -0.773010433, 0, 0.634393275 ],
+			"scale": [ 23.2675343, 70.1181488, 23.2675343 ],
+			"children": [ 99 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding49",
+			"translation": [ 335.6008, -0.5, -239.204544 ],
+			"rotation": [ 0, 0.985277653, -0, 0.170961872 ],
+			"scale": [ 16.4431858, 19.0112019, 24.9297752 ],
+			"children": [ 101 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding50",
+			"translation": [ 370.578247, -0.5, -145.583389 ],
+			"rotation": [ -0, -0.997290552, 0, 0.0735645592 ],
+			"scale": [ 21.7868004, 44.8287621, 21.7868004 ],
+			"children": [ 103 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding51",
+			"translation": [ 325.08429, -0.5, -215.811523 ],
+			"rotation": [ -0, -0.219101265, 0, 0.975702226 ],
+			"scale": [ 18.2023849, 19.0112019, 24.889349 ],
+			"children": [ 105 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding52",
+			"translation": [ 303.355682, -0.5, -136.432953 ],
+			"rotation": [ 0, 0.707106829, -0, 0.707106829 ],
+			"scale": [ 23.1339512, 21.2881985, 9.96811581 ],
+			"children": [ 107 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding53",
+			"translation": [ 337.690613, -0.5, -147.530472 ],
+			"rotation": [ 0, 0.999698818, -0, 0.0245412365 ],
+			"scale": [ 10.290328, 31.478756, 23.6136322 ],
+			"children": [ 109 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding54",
+			"translation": [ 312.06369, -0.5, -190.659744 ],
+			"rotation": [ -0, -0.219101265, 0, 0.975702226 ],
+			"scale": [ 18.19944, 31.478756, 24.8831215 ],
+			"children": [ 111 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding55",
+			"translation": [ 367.390625, -0.5, -169.33046 ],
+			"rotation": [ 0, 0.997290552, -0, 0.0735645816 ],
+			"scale": [ 12.4671755, 31.478756, 24.285471 ],
+			"children": [ 113 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding56",
+			"translation": [ 347.400818, -0.5, -195.904541 ],
+			"rotation": [ 0, 0.992479563, -0, 0.122410655 ],
+			"scale": [ 14.525631, 19.0112019, 24.7301121 ],
+			"children": [ 115 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding57",
+			"translation": [ 355.799988, -0.5, -220.5 ],
+			"rotation": [ -0, -0.146730468, 0, 0.989176512 ],
+			"scale": [ 15.4339409, 24.7925663, 24.6319561 ],
+			"children": [ 117 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding58",
+			"translation": [ 275.434082, -0.5, -224.972687 ],
+			"rotation": [ -0, -0.195090353, 0, 0.98078537 ],
+			"scale": [ 17.2178383, 17.2572117, 24.6889057 ],
+			"children": [ 119 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding59",
+			"translation": [ 341.484283, -0.5, -171.711517 ],
+			"rotation": [ -0, -0.122410677, 0, 0.992479563 ],
+			"scale": [ 14.525631, 19.0112019, 24.7301121 ],
+			"children": [ 121 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding60",
+			"translation": [ 265.318848, -0.5, -200.752228 ],
+			"rotation": [ 0, 0.989176512, -0, 0.146730483 ],
+			"scale": [ 15.4662266, 32.6304741, 24.7383881 ],
+			"children": [ 123 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding61",
+			"translation": [ 347.699982, -0.5, -29.0999985 ],
+			"rotation": [ -0, -0.0490676835, 0, 0.998795569 ],
+			"scale": [ 11.5311718, 15.1485281, 24.0570869 ],
+			"children": [ 125 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding62",
+			"translation": [ 387.799988, -0.5, 3.0999999 ],
+			"rotation": [ 0, 0.724247098, -0, 0.689540565 ],
+			"scale": [ 23.4484768, 33.3000145, 10.2822132 ],
+			"children": [ 127 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding63",
+			"translation": [ 355.799988, -0.5, -112.099998 ],
+			"rotation": [ -0, -0.0490676835, 0, 0.998795569 ],
+			"scale": [ 11.3698025, 24.7925663, 23.7482491 ],
+			"children": [ 129 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding64",
+			"translation": [ 350.299988, -0.5, -53.3999977 ],
+			"rotation": [ -0, -0.0490676835, 0, 0.998795569 ],
+			"scale": [ 12.1876402, 21.2881985, 23.9995995 ],
+			"children": [ 131 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding65",
+			"translation": [ 295.043732, -0.5, -118.747772 ],
+			"rotation": [ 0, 0.724247098, -0, 0.689540565 ],
+			"scale": [ 23.6136322, 31.478756, 10.2903271 ],
+			"children": [ 133 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding66",
+			"translation": [ 376.699982, -0.5, -120.699997 ],
+			"rotation": [ -0, -0.671558976, 0, 0.740951121 ],
+			"scale": [ 23.9995995, 21.2881985, 12.1876411 ],
+			"children": [ 135 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding67",
+			"translation": [ 302, -0.5, -36 ],
+			"rotation": [ -0, -0.740951121, 0, 0.671558976 ],
+			"scale": [ 21.6316357, 70.1181488, 21.6316357 ],
+			"children": [ 137 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding68",
+			"translation": [ 278.254517, -0.5, -15.5230284 ],
+			"rotation": [ -0, -0.0735645741, 0, 0.997290552 ],
+			"scale": [ 12.4671755, 31.478756, 24.285471 ],
+			"children": [ 139 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding69",
+			"translation": [ 285.099823, -0.5, -77.3688965 ],
+			"rotation": [ -0, -0.0490676723, 0, 0.998795569 ],
+			"scale": [ 11.3931494, 19.0112019, 23.9852905 ],
+			"children": [ 141 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding70",
+			"translation": [ 388.199982, -0.5, -17.8999996 ],
+			"rotation": [ -0, -0.0980171412, 0, 0.99518472 ],
+			"scale": [ 22.5534019, 44.8287621, 22.5534019 ],
+			"children": [ 143 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding71",
+			"translation": [ 321.299988, -0.5, -14.1999998 ],
+			"rotation": [ 0, 0.724247098, -0, 0.689540565 ],
+			"scale": [ 20.734499, 41.9015961, 20.734499 ],
+			"children": [ 145 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding72",
+			"translation": [ 283.118103, -0.5, -53.1651344 ],
+			"rotation": [ 0, 0.998795569, -0, 0.0490676984 ],
+			"scale": [ 12.1876411, 21.2881985, 23.9995995 ],
+			"children": [ 147 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding73",
+			"translation": [ 337.799988, -0.5, -111.599998 ],
+			"rotation": [ -0, -0.024541229, 0, 0.999698818 ],
+			"scale": [ 10.2492294, 17.2572117, 23.3599682 ],
+			"children": [ 149 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding74",
+			"translation": [ 296.418091, -0.5, -7.46513462 ],
+			"rotation": [ 0, 0.707106829, -0, 0.707106829 ],
+			"scale": [ 23.1339512, 21.2881985, 9.96811581 ],
+			"children": [ 151 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding75",
+			"translation": [ 319.984375, -0.5, -119.606468 ],
+			"rotation": [ 0, 0.724247098, -0, 0.689540565 ],
+			"scale": [ 23.686018, 15.1485281, 10.4262772 ],
+			"children": [ 153 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding76",
+			"translation": [ 291.578247, -0.5, -100.3834 ],
+			"rotation": [ 0, 0.998795569, -0, 0.049067691 ],
+			"scale": [ 20.9677124, 44.8287621, 20.9677124 ],
+			"children": [ 155 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding77",
+			"translation": [ 354.5, -0.5, -10.0999994 ],
+			"rotation": [ 0, 0.707106829, -0, 0.707106829 ],
+			"scale": [ 23.0718632, 32.6304741, 9.16339111 ],
+			"children": [ 157 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding78",
+			"translation": [ 491.299988, -0.5, -138.599991 ],
+			"rotation": [ -0, -0.0980171412, 0, 0.99518472 ],
+			"scale": [ 22.915699, 40.5615997, 22.915699 ],
+			"children": [ 159 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding79",
+			"translation": [ 489.199982, -0.5, -198.800003 ],
+			"rotation": [ -0, -0.0980171412, 0, 0.99518472 ],
+			"scale": [ 22.5534019, 72.112236, 22.5534019 ],
+			"children": [ 161 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding80",
+			"translation": [ 420.899994, -0.5, -227.5 ],
+			"rotation": [ -0, -0.0735645741, 0, 0.997290552 ],
+			"scale": [ 22.4766598, 48.0708961, 22.4766598 ],
+			"children": [ 163 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding81",
+			"translation": [ 436.599976, -0.5, -123.599998 ],
+			"rotation": [ -0, -0.0735645741, 0, 0.997290552 ],
+			"scale": [ 22.4766598, 70.1181488, 22.4766598 ],
+			"children": [ 165 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding82",
+			"translation": [ 464.599976, -0.5, -203.199997 ],
+			"rotation": [ -0, -0.0980171412, 0, 0.99518472 ],
+			"scale": [ 23.2675343, 41.9015961, 23.2675343 ],
+			"children": [ 167 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding83",
+			"translation": [ 465.199982, -0.5, -224.699997 ],
+			"rotation": [ 0, 0.653172851, -0, 0.757208824 ],
+			"scale": [ 24.2270565, 20.8862324, 12.4585104 ],
+			"children": [ 169 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding84",
+			"translation": [ 461.299744, -0.5, -120.391235 ],
+			"rotation": [ -0, -0.0735645741, 0, 0.997290552 ],
+			"scale": [ 22.1367817, 42.8937302, 22.1367817 ],
+			"children": [ 171 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding85",
+			"translation": [ 422.190613, -0.5, -201.730469 ],
+			"rotation": [ -0, -0.073564589, 0, 0.997290552 ],
+			"scale": [ 12.4671755, 31.478756, 24.2854729 ],
+			"children": [ 173 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding86",
+			"translation": [ 490, -0.5, -221.299988 ],
+			"rotation": [ 0, 0.653172851, -0, 0.757208824 ],
+			"scale": [ 24.1666927, 32.6304741, 12.4495564 ],
+			"children": [ 175 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding87",
+			"translation": [ 396.600006, -0.5, -143.899994 ],
+			"rotation": [ 0, 0.724247098, -0, 0.689540565 ],
+			"scale": [ 23.5951958, 21.2881985, 11.091238 ],
+			"children": [ 177 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding88",
+			"translation": [ 415.599976, -0.5, -152.300003 ],
+			"rotation": [ -0, -0.0490676835, 0, 0.998795569 ],
+			"scale": [ 12.1876402, 21.2881985, 23.9995995 ],
+			"children": [ 179 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding89",
+			"translation": [ 515.799988, -0.5, -130.199997 ],
+			"rotation": [ 0, 0.653172851, -0, 0.757208824 ],
+			"scale": [ 24.3461857, 21.2881985, 13.2546816 ],
+			"children": [ 181 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding90",
+			"translation": [ 437.099976, -0.5, -171.399994 ],
+			"rotation": [ -0, -0.0735645741, 0, 0.997290552 ],
+			"scale": [ 13.2546816, 21.2881985, 24.3461857 ],
+			"children": [ 183 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding91",
+			"translation": [ 440.099976, -0.5, -196.300003 ],
+			"rotation": [ -0, -0.0735645741, 0, 0.997290552 ],
+			"scale": [ 12.6082878, 15.1485281, 24.3702011 ],
+			"children": [ 185 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding92",
+			"translation": [ 464.799988, -0.5, -138.300003 ],
+			"rotation": [ 0, 0.634393275, -0, 0.773010433 ],
+			"scale": [ 24.7385254, 31.8248653, 14.2491817 ],
+			"children": [ 187 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding93",
+			"translation": [ 439.699982, -0.5, -143.599991 ],
+			"rotation": [ -0, -0.773010433, 0, 0.634393275 ],
+			"scale": [ 24.3718262, 33.3000145, 13.4795828 ],
+			"children": [ 189 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding94",
+			"translation": [ 443.5, -0.5, -220.899994 ],
+			"rotation": [ 0, 0.997290552, -0, 0.0735645816 ],
+			"scale": [ 12.4671755, 31.478756, 24.285471 ],
+			"children": [ 191 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding95",
+			"translation": [ 491.799988, -0.5, -116 ],
+			"rotation": [ -0, -0.689540565, 0, 0.724247098 ],
+			"scale": [ 23.686018, 15.1485281, 10.4262781 ],
+			"children": [ 193 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding96",
+			"translation": [ 520.5, -0.5, -44.2999992 ],
+			"rotation": [ 0, 0.0490676835, -0, 0.998795569 ],
+			"scale": [ 21.6316357, 41.9015961, 21.6316357 ],
+			"children": [ 195 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding97",
+			"translation": [ 401.5, -0.5, -65.0999985 ],
+			"rotation": [ -0, -0.0490676835, 0, 0.998795569 ],
+			"scale": [ 11.3391171, 17.2572117, 23.7242756 ],
+			"children": [ 197 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding98",
+			"translation": [ 427.199982, -0.5, -98.1999969 ],
+			"rotation": [ -0, -0.0735645741, 0, 0.997290552 ],
+			"scale": [ 12.6082878, 15.1485281, 24.3702011 ],
+			"children": [ 199 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding99",
+			"translation": [ 495.799988, -0.5, -35.5 ],
+			"rotation": [ -0, -0.634393275, 0, 0.773010433 ],
+			"scale": [ 24.54076, 19.0112019, 13.5131865 ],
+			"children": [ 201 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding100",
+			"translation": [ 405.199982, -0.5, -90.4000015 ],
+			"rotation": [ -0, -0.0980171412, 0, 0.99518472 ],
+			"scale": [ 13.5003204, 20.8862324, 24.4760838 ],
+			"children": [ 203 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding101",
+			"translation": [ 417.399994, -0.5, -51.1999969 ],
+			"rotation": [ -0, -0.0980171412, 0, 0.99518472 ],
+			"scale": [ 13.4884157, 32.6304741, 24.4162331 ],
+			"children": [ 205 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding102",
+			"translation": [ 422.799988, -0.5, 3.19999981 ],
+			"rotation": [ -0, -0.653172851, 0, 0.757208824 ],
+			"scale": [ 24.4547443, 31.8248653, 13.2077503 ],
+			"children": [ 207 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding103",
+			"translation": [ 476.799988, -0.5, -1.29999995 ],
+			"rotation": [ 0, 0.122410677, -0, 0.992479563 ],
+			"scale": [ 23.6394081, 68.1317368, 23.6394081 ],
+			"children": [ 209 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding104",
+			"translation": [ 396.799988, -0.5, -40.7999992 ],
+			"rotation": [ -0, -0.0980171412, 0, 0.99518472 ],
+			"scale": [ 13.6550283, 15.1485281, 24.6246052 ],
+			"children": [ 211 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding105",
+			"translation": [ 499.5, -0.5, -99.4000015 ],
+			"rotation": [ -0, -0.615231633, 0, 0.788346529 ],
+			"scale": [ 24.4990635, 24.7925663, 14.4677563 ],
+			"children": [ 213 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding106",
+			"translation": [ 402.600006, -0.5, -123 ],
+			"rotation": [ -0, -0.707106829, 0, 0.707106829 ],
+			"scale": [ 22.9606419, 24.7925663, 9.16339111 ],
+			"children": [ 215 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding107",
+			"translation": [ 500.899994, -0.5, -10.8999996 ],
+			"rotation": [ 0, 0.788346529, -0, 0.615231633 ],
+			"scale": [ 24.9627094, 31.8248653, 15.2562838 ],
+			"children": [ 217 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding108",
+			"translation": [ 448.199982, -0.5, -0.199999988 ],
+			"rotation": [ 0, 0.757208824, -0, 0.653172851 ],
+			"scale": [ 24.0314312, 17.2572117, 12.4016876 ],
+			"children": [ 219 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding109",
+			"translation": [ 468.5, -0.5, -31.1999989 ],
+			"rotation": [ 0, 0.773010433, -0, 0.634393275 ],
+			"scale": [ 24.4162331, 32.6304741, 13.4884157 ],
+			"children": [ 221 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding110",
+			"translation": [ 413.299988, -0.5, -27.1999989 ],
+			"rotation": [ -0, -0.0735645741, 0, 0.997290552 ],
+			"scale": [ 13.2077503, 18.4782085, 24.4547443 ],
+			"children": [ 223 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding111",
+			"translation": [ 607.899963, -0.5, -120.699997 ],
+			"rotation": [ -0, -0.0980171412, 0, 0.99518472 ],
+			"scale": [ 22.5534019, 72.112236, 22.5534019 ],
+			"children": [ 225 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding112",
+			"translation": [ 627.619263, -0.5, -128.77887 ],
+			"rotation": [ -0, -0.0735645741, 0, 0.997290552 ],
+			"scale": [ 13.2077503, 31.8248653, 24.4547443 ],
+			"children": [ 227 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding113",
+			"translation": [ 595.952576, -0.5, -205.519806 ],
+			"rotation": [ 0, 0.653172851, -0, 0.757208824 ],
+			"scale": [ 24.2922878, 19.0112019, 12.4681864 ],
+			"children": [ 229 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding114",
+			"translation": [ 631.619263, -0.5, -152.478867 ],
+			"rotation": [ -0, -0.0735645741, 0, 0.997290552 ],
+			"scale": [ 12.4681864, 19.0112019, 24.2922878 ],
+			"children": [ 231 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding115",
+			"translation": [ 566.152588, -0.5, -122.4198 ],
+			"rotation": [ 0, 0.653172851, -0, 0.757208824 ],
+			"scale": [ 24.2922878, 19.0112019, 12.4681864 ],
+			"children": [ 233 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding116",
+			"translation": [ 541.215454, -0.5, -126.616005 ],
+			"rotation": [ 0, 0.653172851, -0, 0.757208824 ],
+			"scale": [ 24.4547443, 31.8248653, 13.2077503 ],
+			"children": [ 235 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding117",
+			"translation": [ 545.599976, -0.5, -213.299988 ],
+			"rotation": [ 0, 0.653172851, -0, 0.757208824 ],
+			"scale": [ 24.3461857, 21.2881985, 13.2546816 ],
+			"children": [ 237 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding118",
+			"translation": [ 620.899963, -0.5, -196 ],
+			"rotation": [ -0, -0.0735645741, 0, 0.997290552 ],
+			"scale": [ 22.4766598, 41.9015961, 22.4766598 ],
+			"children": [ 239 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding119",
+			"translation": [ 571.015442, -0.5, -209.716003 ],
+			"rotation": [ 0, 0.653172851, -0, 0.757208824 ],
+			"scale": [ 24.4547443, 31.8248653, 13.2077503 ],
+			"children": [ 241 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding120",
+			"translation": [ 635.81543, -0.5, -177.416016 ],
+			"rotation": [ -0, -0.0735645741, 0, 0.997290552 ],
+			"scale": [ 13.2077503, 31.8248653, 24.4547443 ],
+			"children": [ 243 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding121",
+			"translation": [ 520.5, -0.5, -69.0999985 ],
+			"rotation": [ 0, 0.0980171412, -0, 0.99518472 ],
+			"scale": [ 13.4795828, 33.3000145, 24.3718262 ],
+			"children": [ 245 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding122",
+			"translation": [ 528.200012, -0.5, -8.89999962 ],
+			"rotation": [ -0, -0.997290552, 0, 0.0735645592 ],
+			"scale": [ 12.4495554, 32.6304741, 24.1666927 ],
+			"children": [ 247 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding123",
+			"translation": [ 589.700012, -0.5, -7.0999999 ],
+			"rotation": [ -0, -0.290284663, 0, 0.956940353 ],
+			"scale": [ 21.1528835, 31.8248653, 24.8362522 ],
+			"children": [ 249 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding124",
+			"translation": [ 564.615479, -0.5, -99.3160019 ],
+			"rotation": [ 0, 0.653172851, -0, 0.757208824 ],
+			"scale": [ 24.4547443, 31.8248653, 13.2077503 ],
+			"children": [ 251 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding125",
+			"translation": [ 636.399963, -0.5, -17.7999992 ],
+			"rotation": [ 0, 0.999698818, -0, 0.0245412365 ],
+			"scale": [ 10.290328, 31.478756, 23.6136322 ],
+			"children": [ 253 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding126",
+			"translation": [ 639.055664, -0.5, -45.1761971 ],
+			"rotation": [ -0, -0.0735645741, 0, 0.997290552 ],
+			"scale": [ 13.2546816, 21.2881985, 24.3461857 ],
+			"children": [ 255 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding127",
+			"translation": [ 589.552612, -0.5, -95.1198044 ],
+			"rotation": [ 0, 0.653172851, -0, 0.757208824 ],
+			"scale": [ 24.2922878, 19.0112019, 12.4681864 ],
+			"children": [ 257 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding128",
+			"translation": [ 537, -0.5, -97.5 ],
+			"rotation": [ 0, 0.122410677, -0, 0.992479563 ],
+			"scale": [ 24.0023575, 63.9488525, 24.0023575 ],
+			"children": [ 259 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding129",
+			"translation": [ 557.099976, -0.5, 6.0999999 ],
+			"rotation": [ 0, 0.0735645741, -0, 0.997290552 ],
+			"scale": [ 22.4766598, 41.9015961, 22.4766598 ],
+			"children": [ 261 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding130",
+			"translation": [ 607, -0.5, -38.2999992 ],
+			"rotation": [ 0, 0.98078537, -0, 0.195090353 ],
+			"scale": [ 18.0623188, 21.2881985, 25.1876163 ],
+			"children": [ 263 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding131",
+			"translation": [ 544.469849, -0.5, -43.8413086 ],
+			"rotation": [ 0, 0.0980171412, -0, 0.99518472 ],
+			"scale": [ 14.2491808, 31.8248653, 24.7385254 ],
+			"children": [ 265 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding132",
+			"translation": [ 608.200012, -0.5, -63 ],
+			"rotation": [ -0, -0.0735645741, 0, 0.997290552 ],
+			"scale": [ 22.4766598, 41.9015961, 22.4766598 ],
+			"children": [ 267 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding133",
+			"translation": [ 616.899963, -0.5, -86.1999969 ],
+			"rotation": [ -0, -0.0490676835, 0, 0.998795569 ],
+			"scale": [ 11.3807039, 32.6304741, 23.8589344 ],
+			"children": [ 269 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding134",
+			"translation": [ 539.799988, -0.5, -68 ],
+			"rotation": [ -0, -0.99518472, 0, 0.0980171263 ],
+			"scale": [ 13.5003204, 20.8862324, 24.4760838 ],
+			"children": [ 271 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding135",
+			"translation": [ 549.746033, -0.5, -19.6338329 ],
+			"rotation": [ -0, -0.992479563, 0, 0.122410655 ],
+			"scale": [ 15.2904749, 21.2881985, 24.862709 ],
+			"children": [ 273 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding136",
+			"translation": [ 663.475952, -0.5, -171.577347 ],
+			"rotation": [ -0, -0.0735645741, 0, 0.997290552 ],
+			"scale": [ 12.4681864, 19.0112019, 24.2922878 ],
+			"children": [ 275 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding137",
+			"translation": [ 658.177185, -0.5, -144.425735 ],
+			"rotation": [ -0, -0.0735645741, 0, 0.997290552 ],
+			"scale": [ 13.2077503, 18.4782085, 24.4547443 ],
+			"children": [ 277 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding138",
+			"translation": [ -49, -0.5, 74 ],
+			"rotation": [ 0, 0.0980171412, -0, 0.99518472 ],
+			"scale": [ 13.4343824, 17.2572117, 24.2806911 ],
+			"children": [ 279 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding139",
+			"translation": [ -27.6999989, -0.5, 89 ],
+			"rotation": [ 0, 0.106155604, -0, 0.994349539 ],
+			"scale": [ 13.9967537, 15.1485281, 24.696249 ],
+			"children": [ 281 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding140",
+			"translation": [ -11.8999996, -0.5, 52.8999977 ],
+			"rotation": [ -0, -0.634393275, 0, 0.773010433 ],
+			"scale": [ 24.2806911, 17.2572117, 13.4343824 ],
+			"children": [ 283 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding141",
+			"translation": [ -79.9000015, -0.5, 14.5 ],
+			"rotation": [ -0, -0.923879623, 0, 0.382683486 ],
+			"scale": [ 22.6797676, 17.2572117, 22.6797657 ],
+			"children": [ 285 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding142",
+			"translation": [ -5.0999999, -0.5, 29.5 ],
+			"rotation": [ -0, -0.634393275, 0, 0.773010433 ],
+			"scale": [ 24.3718262, 33.3000145, 13.4795828 ],
+			"children": [ 287 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding143",
+			"translation": [ -16.7999992, -0.5, 105.099998 ],
+			"rotation": [ -0, -0.634393275, 0, 0.773010433 ],
+			"scale": [ 24.3718262, 33.3000145, 13.4795828 ],
+			"children": [ 289 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding144",
+			"translation": [ -27.5999985, -0.5, 23.6999989 ],
+			"rotation": [ -0, -0.219101265, 0, 0.975702226 ],
+			"scale": [ 25.5391426, 72.112236, 25.5391426 ],
+			"children": [ 291 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding145",
+			"translation": [ 10.6999998, -0.5, 48.5 ],
+			"rotation": [ 0, 0.773010433, -0, 0.634393275 ],
+			"scale": [ 24.6246052, 15.1485281, 13.6550274 ],
+			"children": [ 293 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding146",
+			"translation": [ 4.0999999, -0.5, 97.2999954 ],
+			"rotation": [ 0, 0.0980171412, -0, 0.99518472 ],
+			"scale": [ 22.5534019, 44.8287621, 22.5534019 ],
+			"children": [ 295 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding147",
+			"translation": [ -61.5999985, -0.5, 32 ],
+			"rotation": [ 0, 0.405241311, -0, 0.914209783 ],
+			"scale": [ 23.4759464, 15.1485281, 22.5071201 ],
+			"children": [ 297 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding148",
+			"translation": [ 59.6999969, -0.5, 47.3999977 ],
+			"rotation": [ 0, 0.266712755, -0, 0.963776052 ],
+			"scale": [ 20.4486675, 18.4782085, 25.036211 ],
+			"children": [ 299 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding149",
+			"translation": [ 129.899994, -0.5, 28.5 ],
+			"rotation": [ 0, 0.266712755, -0, 0.963776052 ],
+			"scale": [ 20.4486675, 18.4782085, 25.036211 ],
+			"children": [ 301 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding150",
+			"translation": [ 91.7999954, -0.5, 130.800003 ],
+			"rotation": [ 0, 0.773010433, -0, 0.634393275 ],
+			"scale": [ 24.2806911, 17.2572117, 13.4343815 ],
+			"children": [ 303 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding151",
+			"translation": [ 72.5999985, -0.5, 69.0999985 ],
+			"rotation": [ 0, 0.266712755, -0, 0.963776052 ],
+			"scale": [ 20.4486675, 18.4782085, 25.036211 ],
+			"children": [ 305 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding152",
+			"translation": [ 95.2999954, -0.5, 26.0999985 ],
+			"rotation": [ 0, 0.835087955, -0, 0.55011642 ],
+			"scale": [ 25.0387859, 15.1485281, 17.7222347 ],
+			"children": [ 307 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding153",
+			"translation": [ 35.7999992, -0.5, 48.5 ],
+			"rotation": [ 0, 0.0980171412, -0, 0.99518472 ],
+			"scale": [ 23.2675343, 48.0708961, 23.2675343 ],
+			"children": [ 309 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding154",
+			"translation": [ 29, -0.5, 98.1999969 ],
+			"rotation": [ 0, 0.773010433, -0, 0.634393275 ],
+			"scale": [ 24.2806911, 17.2572117, 13.4343815 ],
+			"children": [ 311 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding155",
+			"translation": [ 53.7999992, -0.5, 94.1999969 ],
+			"rotation": [ -0, -0.653172851, 0, 0.757208824 ],
+			"scale": [ 24.3702011, 15.1485281, 12.6082878 ],
+			"children": [ 313 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding156",
+			"translation": [ 78.2999954, -0.5, 89.7999954 ],
+			"rotation": [ -0, -0.634393275, 0, 0.773010433 ],
+			"scale": [ 24.2806911, 17.2572117, 13.4343824 ],
+			"children": [ 315 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding157",
+			"translation": [ 126.399994, -0.5, 76.7999954 ],
+			"scale": [ 19.1800919, 44.8287621, 19.1800919 ],
+			"children": [ 317 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding158",
+			"translation": [ 45.3999977, -0.5, 15.7999992 ],
+			"rotation": [ 0, 0.857728601, -0, 0.514102757 ],
+			"scale": [ 24.6272297, 33.3000145, 18.9360466 ],
+			"children": [ 319 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding159",
+			"translation": [ 19.5, -0.5, 25.1000004 ],
+			"rotation": [ -0, -0.653172851, 0, 0.757208824 ],
+			"scale": [ 24.4547443, 18.4782085, 13.2077503 ],
+			"children": [ 321 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding160",
+			"translation": [ 120.5, -0.5, 52.0999985 ],
+			"rotation": [ 0, 0.242980182, -0, 0.970031261 ],
+			"scale": [ 19.6963615, 21.2881985, 25.1012592 ],
+			"children": [ 323 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding161",
+			"translation": [ 39.2999992, -0.5, 140.399994 ],
+			"rotation": [ 0, 0.773010433, -0, 0.634393275 ],
+			"scale": [ 24.3718262, 33.3000145, 13.4795828 ],
+			"children": [ 325 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding162",
+			"translation": [ 17.8999996, -0.5, 144.899994 ],
+			"rotation": [ 0, 0.773010433, -0, 0.634393275 ],
+			"scale": [ 24.54076, 19.0112019, 13.5131855 ],
+			"children": [ 327 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding163",
+			"translation": [ 107, -0.5, 150.699997 ],
+			"rotation": [ 0, 0.251963794, -0, 0.967736661 ],
+			"scale": [ 26.5175476, 40.5615997, 26.5175476 ],
+			"children": [ 329 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding164",
+			"translation": [ 134.899994, -0.5, 190.599991 ],
+			"rotation": [ 0, 0.242980182, -0, 0.970031261 ],
+			"scale": [ 19.0139942, 31.478756, 24.7730579 ],
+			"children": [ 331 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding165",
+			"translation": [ 122.599998, -0.5, 168 ],
+			"rotation": [ 0, 0.242980182, -0, 0.970031261 ],
+			"scale": [ 19.1622658, 15.1485281, 24.8938541 ],
+			"children": [ 333 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding166",
+			"translation": [ 122.599998, -0.5, 237.699997 ],
+			"rotation": [ -0, -0.492898196, 0, 0.870086968 ],
+			"scale": [ 24.6092243, 19.0112019, 19.7862854 ],
+			"children": [ 335 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding167",
+			"translation": [ 63.5, -0.5, 136.199997 ],
+			"rotation": [ -0, -0.653172851, 0, 0.757208824 ],
+			"scale": [ 24.2922878, 19.0112019, 12.4681864 ],
+			"children": [ 337 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding168",
+			"translation": [ 155, -0.5, 71.9000015 ],
+			"rotation": [ 0, 0.266712755, -0, 0.963776052 ],
+			"scale": [ 19.9306164, 15.1485281, 24.7281895 ],
+			"children": [ 339 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding169",
+			"translation": [ 142.099991, -0.5, 50.2000008 ],
+			"rotation": [ 0, 0.242980182, -0, 0.970031261 ],
+			"scale": [ 18.9861565, 20.8862324, 24.7209778 ],
+			"children": [ 341 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding170",
+			"translation": [ 262.600006, -0.5, 76.1999969 ],
+			"rotation": [ 0, 0.313681781, -0, 0.949528277 ],
+			"scale": [ 27.2621746, 64.940979, 27.2621746 ],
+			"children": [ 343 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding171",
+			"translation": [ 217.099991, -0.5, 40.0999985 ],
+			"rotation": [ -0, -0.170961887, 0, 0.985277653 ],
+			"scale": [ 16.4431858, 19.0112019, 24.9297752 ],
+			"children": [ 345 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding172",
+			"translation": [ 198.699997, -0.5, 119.199997 ],
+			"rotation": [ 0, 0.831469595, -0, 0.555570245 ],
+			"scale": [ 25.1876163, 21.2881985, 18.0623169 ],
+			"children": [ 347 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding173",
+			"translation": [ 178.099991, -0.5, 68.0999985 ],
+			"rotation": [ 0, 0.146730468, -0, 0.989176512 ],
+			"scale": [ 24.6793556, 41.9015961, 24.6793556 ],
+			"children": [ 349 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding174",
+			"translation": [ 168, -0.5, 132.5 ],
+			"rotation": [ 0, 0.0980171412, -0, 0.99518472 ],
+			"scale": [ 22.5534019, 72.112236, 22.5534019 ],
+			"children": [ 351 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding175",
+			"translation": [ 225.5, -0.5, 102.699997 ],
+			"rotation": [ -0, -0.514102757, 0, 0.857728601 ],
+			"scale": [ 25.1012592, 21.2881985, 19.6963615 ],
+			"children": [ 353 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding176",
+			"translation": [ 246.399994, -0.5, 95.9000015 ],
+			"rotation": [ -0, -0.949528277, 0, 0.313681781 ],
+			"scale": [ 21.8061409, 31.8248653, 24.5764599 ],
+			"children": [ 355 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding177",
+			"translation": [ 236.899994, -0.5, 117.799995 ],
+			"rotation": [ 0, 0.266712755, -0, 0.963776052 ],
+			"scale": [ 26.7345238, 68.1317368, 26.7345238 ],
+			"children": [ 357 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding178",
+			"translation": [ 202.099991, -0.5, 63.0999985 ],
+			"rotation": [ -0, -0.359895051, 0, 0.932992816 ],
+			"scale": [ 22.9216976, 21.2881985, 23.8353043 ],
+			"children": [ 359 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding179",
+			"translation": [ 141.199997, -0.5, 138.099991 ],
+			"rotation": [ -0, -0.970031261, 0, 0.242980167 ],
+			"scale": [ 18.9360466, 33.3000145, 24.6272297 ],
+			"children": [ 361 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding180",
+			"translation": [ 191.800003, -0.5, 38 ],
+			"rotation": [ 0, 0.266712755, -0, 0.963776052 ],
+			"scale": [ 26.7345238, 68.1317368, 26.7345238 ],
+			"children": [ 363 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding181",
+			"translation": [ 216.156418, -0.5, 16.4934807 ],
+			"rotation": [ 0, 0.653172851, -0, 0.757208824 ],
+			"scale": [ 24.4547443, 31.8248653, 13.2077503 ],
+			"children": [ 365 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding182",
+			"translation": [ 172.699997, -0.5, 184.099991 ],
+			"rotation": [ 0, 0.405241311, -0, 0.914209783 ],
+			"scale": [ 23.8353043, 21.2881985, 22.9216976 ],
+			"children": [ 367 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding183",
+			"translation": [ 153.699997, -0.5, 162.099991 ],
+			"rotation": [ 0, 0.242980182, -0, 0.970031261 ],
+			"scale": [ 19.0172424, 19.0112019, 24.7791348 ],
+			"children": [ 369 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding184",
+			"translation": [ 267.399994, -0.5, 165.899994 ],
+			"rotation": [ -0, -0.514102757, 0, 0.857728601 ],
+			"scale": [ 25.1758556, 31.8248653, 19.6951885 ],
+			"children": [ 371 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding185",
+			"translation": [ 235.556152, -0.5, 261.647247 ],
+			"rotation": [ 0, 0.634393275, -0, 0.773010433 ],
+			"scale": [ 24.54076, 19.0112019, 13.5131855 ],
+			"children": [ 373 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding186",
+			"translation": [ 227.5, -0.5, 217.899994 ],
+			"rotation": [ 0, 0.857728601, -0, 0.514102757 ],
+			"scale": [ 24.6272297, 33.3000145, 18.9360466 ],
+			"children": [ 375 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding187",
+			"translation": [ 155.800003, -0.5, 261.199982 ],
+			"rotation": [ -0, -0.514102757, 0, 0.857728601 ],
+			"scale": [ 24.8938541, 15.1485281, 19.1622658 ],
+			"children": [ 377 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding188",
+			"translation": [ 260.722595, -0.5, 235.626205 ],
+			"rotation": [ 0, 0.923879623, -0, 0.382683486 ],
+			"scale": [ 23.4066963, 21.2881985, 23.4066944 ],
+			"children": [ 379 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding189",
+			"translation": [ 140.638, -0.5, 216.871399 ],
+			"rotation": [ 0, 0.985277653, -0, 0.170961902 ],
+			"scale": [ 16.3851604, 33.3000145, 24.7675991 ],
+			"children": [ 381 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding190",
+			"translation": [ 221.299988, -0.5, 186.699997 ],
+			"rotation": [ -0, -0.514102757, 0, 0.857728601 ],
+			"scale": [ 24.7791348, 19.0112019, 19.0172424 ],
+			"children": [ 383 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding191",
+			"translation": [ 243.399994, -0.5, 172.800003 ],
+			"rotation": [ 0, 0.242980182, -0, 0.970031261 ],
+			"scale": [ 26.7786617, 41.9015961, 26.7786617 ],
+			"children": [ 385 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding192",
+			"translation": [ 199, -0.5, 197.899994 ],
+			"rotation": [ 0, 0.857728601, -0, 0.514102757 ],
+			"scale": [ 24.5690708, 24.7925663, 18.9049606 ],
+			"children": [ 387 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding193",
+			"translation": [ 237.299988, -0.5, 244 ],
+			"rotation": [ 0, 0.634393275, -0, 0.773010433 ],
+			"scale": [ 24.6341209, 21.2881985, 14.2897911 ],
+			"children": [ 389 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding194",
+			"translation": [ 249.899994, -0.5, 213.099991 ],
+			"rotation": [ 0, 0.219101265, -0, 0.975702226 ],
+			"scale": [ 26.3478184, 63.9488525, 26.3478184 ],
+			"children": [ 391 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding195",
+			"translation": [ 213.056152, -0.5, 239.347244 ],
+			"rotation": [ 0, 0.634393275, -0, 0.773010433 ],
+			"scale": [ 24.54076, 19.0112019, 13.5131855 ],
+			"children": [ 393 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding196",
+			"translation": [ 128.800003, -0.5, 275.899994 ],
+			"rotation": [ 0, 0.266712755, -0, 0.963776052 ],
+			"scale": [ 26.7345238, 42.8937302, 26.7345238 ],
+			"children": [ 395 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding197",
+			"translation": [ 105.01152, -0.5, 282.926819 ],
+			"rotation": [ -0, -0.514102757, 0, 0.857728601 ],
+			"scale": [ 24.7209778, 20.8862324, 18.9861565 ],
+			"children": [ 397 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding198",
+			"translation": [ 213.799988, -0.5, 269.299988 ],
+			"rotation": [ 0, 0.242980182, -0, 0.970031261 ],
+			"scale": [ 19.0172424, 19.0112019, 24.7791348 ],
+			"children": [ 399 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding199",
+			"translation": [ 177.5, -0.5, 269.5 ],
+			"rotation": [ 0, 0.266712755, -0, 0.963776052 ],
+			"scale": [ 20.4486675, 31.8248653, 25.036211 ],
+			"children": [ 401 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding200",
+			"translation": [ 230.625412, -0.5, 291.11319 ],
+			"rotation": [ 0, 0.831469595, -0, 0.555570245 ],
+			"scale": [ 25.8535004, 41.9015961, 25.8535004 ],
+			"children": [ 403 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding201",
+			"translation": [ 329.199982, -0.5, 50.8999977 ],
+			"rotation": [ 0, 0.0490676835, -0, 0.998795569 ],
+			"scale": [ 21.3045368, 64.940979, 21.3045368 ],
+			"children": [ 405 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding202",
+			"translation": [ 271.94516, -0.5, 21.5488796 ],
+			"rotation": [ 0, 0.997290552, -0, 0.0735645816 ],
+			"scale": [ 12.4332371, 24.7925663, 24.0566769 ],
+			"children": [ 407 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding203",
+			"translation": [ 308.799988, -0.5, 89.2999954 ],
+			"rotation": [ -0, -0.59569931, 0, 0.803207517 ],
+			"scale": [ 25.0314007, 21.2881985, 16.254324 ],
+			"children": [ 409 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding204",
+			"translation": [ 281.399994, -0.5, 96.4000015 ],
+			"rotation": [ 0, 0.803207517, -0, 0.59569931 ],
+			"scale": [ 25.0314007, 21.2881985, 16.254324 ],
+			"children": [ 411 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding205",
+			"translation": [ 351.299988, -0.5, 115.199997 ],
+			"rotation": [ 0, 0.266712755, -0, 0.963776052 ],
+			"scale": [ 19.6638317, 24.7925663, 24.4049244 ],
+			"children": [ 413 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding206",
+			"translation": [ 353.340057, -0.5, 42.4320755 ],
+			"rotation": [ 0, 0.0735645741, -0, 0.997290552 ],
+			"scale": [ 12.6082878, 15.1485281, 24.3702011 ],
+			"children": [ 415 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding207",
+			"translation": [ 326.799988, -0.5, 28.3999996 ],
+			"rotation": [ -0, -0.998795569, 0, 0.0490676723 ],
+			"scale": [ 21.6316357, 48.0708961, 21.6316357 ],
+			"children": [ 417 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding208",
+			"translation": [ 296.24469, -0.5, 12.5390234 ],
+			"rotation": [ 0, 0.724247098, -0, 0.689540565 ],
+			"scale": [ 23.4936981, 32.6304741, 10.2844353 ],
+			"children": [ 419 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding209",
+			"translation": [ 350.899994, -0.5, 16.6000004 ],
+			"rotation": [ 0, 0.024541229, -0, 0.999698818 ],
+			"scale": [ 11.091238, 21.2881985, 23.5951958 ],
+			"children": [ 421 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding210",
+			"translation": [ 322.100403, -0.5, 10.5313425 ],
+			"rotation": [ -0, -0.671558976, 0, 0.740951121 ],
+			"scale": [ 23.9196644, 20.8862324, 11.3866854 ],
+			"children": [ 423 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding211",
+			"translation": [ 376.399994, -0.5, 103.099998 ],
+			"rotation": [ 0, 0.242980182, -0, 0.970031261 ],
+			"scale": [ 26.7786617, 70.1181488, 26.7786617 ],
+			"children": [ 425 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding212",
+			"translation": [ 356.903931, -0.5, 67.4979553 ],
+			"rotation": [ 0, 0.0490676835, -0, 0.998795569 ],
+			"scale": [ 11.3391171, 17.2572117, 23.7242756 ],
+			"children": [ 427 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding213",
+			"translation": [ 298.600006, -0.5, 130.599991 ],
+			"rotation": [ -0, -0.949528277, 0, 0.313681781 ],
+			"scale": [ 21.0019951, 17.2572117, 23.8665905 ],
+			"children": [ 429 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding214",
+			"translation": [ 271.899994, -0.5, 126.199997 ],
+			"rotation": [ 0, 0.290284663, -0, 0.956940353 ],
+			"scale": [ 21.1407204, 21.2881985, 24.7731647 ],
+			"children": [ 431 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding215",
+			"translation": [ 266.293427, -0.5, 46.6920204 ],
+			"rotation": [ -0, -0.122410715, 0, 0.992479622 ],
+			"scale": [ 14.5096092, 20.8862324, 24.6661453 ],
+			"children": [ 433 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding216",
+			"translation": [ 304.600006, -0.5, 180.5 ],
+			"rotation": [ 0, 0.857728601, -0, 0.514102757 ],
+			"scale": [ 24.6671581, 32.6304741, 18.9573898 ],
+			"children": [ 435 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding217",
+			"translation": [ 287.562653, -0.5, 146.990707 ],
+			"rotation": [ -0, -0.949528277, 0, 0.313681781 ],
+			"scale": [ 21.787344, 21.2881985, 24.5193634 ],
+			"children": [ 437 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding218",
+			"translation": [ 386.100006, -0.5, 144.199997 ],
+			"rotation": [ 0, 0.242980182, -0, 0.970031261 ],
+			"scale": [ 19.6963615, 21.2881985, 25.1012592 ],
+			"children": [ 439 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding219",
+			"translation": [ 316.100006, -0.5, 142.5 ],
+			"rotation": [ 0, 0.870086968, -0, 0.492898196 ],
+			"scale": [ 24.5003204, 32.6304741, 19.7210102 ],
+			"children": [ 441 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding220",
+			"translation": [ 356.699982, -0.5, 154.699997 ],
+			"rotation": [ 0, 0.84485358, -0, 0.534997642 ],
+			"scale": [ 25.2548485, 18.4782085, 18.8942604 ],
+			"children": [ 443 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding221",
+			"translation": [ 389.116943, -0.5, 199.391663 ],
+			"rotation": [ -0, -0.634393275, 0, 0.773010433 ],
+			"scale": [ 24.6341209, 21.2881985, 14.2897911 ],
+			"children": [ 445 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding222",
+			"translation": [ 339.399994, -0.5, 187.399994 ],
+			"rotation": [ -0, -0.970031261, 0, 0.242980167 ],
+			"scale": [ 19.0139942, 31.478756, 24.7730579 ],
+			"children": [ 447 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding223",
+			"translation": [ 292.299988, -0.5, 207.5 ],
+			"rotation": [ -0, -0.893224299, 0, 0.449611306 ],
+			"scale": [ 24.039135, 20.8862324, 21.1403503 ],
+			"children": [ 449 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding224",
+			"translation": [ 345.92511, -0.5, 258.817291 ],
+			"rotation": [ -0, -0.903989315, 0, 0.427555114 ],
+			"scale": [ 23.6129856, 33.3000145, 21.691309 ],
+			"children": [ 451 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding225",
+			"translation": [ 364.269928, -0.5, 259.788788 ],
+			"rotation": [ -0, -0.0735645741, 0, 0.997290552 ],
+			"scale": [ 13.2546816, 21.2881985, 24.3461857 ],
+			"children": [ 453 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding226",
+			"translation": [ 364.116943, -0.5, 206.09166 ],
+			"rotation": [ -0, -0.634393275, 0, 0.773010433 ],
+			"scale": [ 24.6341209, 21.2881985, 14.2897911 ],
+			"children": [ 455 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding227",
+			"translation": [ 334.5, -0.5, 165.599991 ],
+			"rotation": [ -0, -0.514102757, 0, 0.857728601 ],
+			"scale": [ 25.1758556, 31.8248653, 19.6951885 ],
+			"children": [ 457 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding228",
+			"translation": [ 313.199982, -0.5, 212.5 ],
+			"rotation": [ 0, 0.923879623, -0, 0.382683486 ],
+			"scale": [ 22.8369179, 20.8862324, 22.836916 ],
+			"children": [ 459 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding229",
+			"translation": [ 282.699982, -0.5, 192.099991 ],
+			"rotation": [ -0, -0.514102757, 0, 0.857728601 ],
+			"scale": [ 25.1758556, 31.8248653, 19.6951885 ],
+			"children": [ 461 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding230",
+			"translation": [ 297.799988, -0.5, 251.199997 ],
+			"rotation": [ 0, 0.634393275, -0, 0.773010433 ],
+			"scale": [ 24.6341209, 21.2881985, 14.2897911 ],
+			"children": [ 463 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding231",
+			"translation": [ 270.822601, -0.5, 253.126205 ],
+			"rotation": [ 0, 0.923879623, -0, 0.382683486 ],
+			"scale": [ 23.4066963, 21.2881985, 23.4066944 ],
+			"children": [ 465 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding232",
+			"translation": [ 385.399628, -0.5, 221.684662 ],
+			"rotation": [ -0, -0.634393275, 0, 0.773010433 ],
+			"scale": [ 24.6341209, 21.2881985, 14.2897902 ],
+			"children": [ 467 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding233",
+			"translation": [ 344.600006, -0.5, 223.299988 ],
+			"rotation": [ 0, 0.336889863, -0, 0.941544175 ],
+			"scale": [ 21.7962074, 31.478756, 23.7408066 ],
+			"children": [ 469 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding234",
+			"translation": [ 322.199982, -0.5, 193.199997 ],
+			"rotation": [ -0, -0.949528277, 0, 0.313681751 ],
+			"scale": [ 21.1755276, 31.478756, 24.0865669 ],
+			"children": [ 471 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding235",
+			"translation": [ 357, -0.5, 179 ],
+			"rotation": [ 0, 0.219101265, -0, 0.975702226 ],
+			"scale": [ 25.9494019, 68.1317368, 25.9494019 ],
+			"children": [ 473 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding236",
+			"translation": [ 327.925415, -0.5, 234.613205 ],
+			"rotation": [ 0, 0.923879623, -0, 0.382683486 ],
+			"scale": [ 27.9836273, 41.9015961, 27.9836273 ],
+			"children": [ 475 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding237",
+			"translation": [ 277.751099, -0.5, 219.037704 ],
+			"rotation": [ -0, -0.84485358, 0, 0.534997642 ],
+			"scale": [ 25.2548485, 31.8248653, 18.8942604 ],
+			"children": [ 477 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding238",
+			"translation": [ 413.899994, -0.5, 43.0999985 ],
+			"rotation": [ 0, 0.242980182, -0, 0.970031261 ],
+			"scale": [ 19.1622658, 15.1485281, 24.8938541 ],
+			"children": [ 479 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding239",
+			"translation": [ 464.299988, -0.5, 105.399994 ],
+			"rotation": [ 0, 0.242980182, -0, 0.970031261 ],
+			"scale": [ 19.6963615, 21.2881985, 25.1012592 ],
+			"children": [ 481 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding240",
+			"translation": [ 427.099976, -0.5, 85 ],
+			"rotation": [ 0, 0.857728601, -0, 0.514102757 ],
+			"scale": [ 24.8938541, 15.1485281, 19.1622658 ],
+			"children": [ 483 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding241",
+			"translation": [ 522.5, -0.5, 69.4000015 ],
+			"rotation": [ 0, 0.84485358, -0, 0.534997642 ],
+			"scale": [ 24.8297367, 20.8862324, 18.1741905 ],
+			"children": [ 485 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding242",
+			"translation": [ 425.699982, -0.5, 65.5 ],
+			"rotation": [ 0, 0.219101265, -0, 0.975702226 ],
+			"scale": [ 18.0654755, 17.2572117, 24.6425228 ],
+			"children": [ 487 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding243",
+			"translation": [ 500.199982, -0.5, 79.7999954 ],
+			"rotation": [ -0, -0.534997642, 0, 0.84485358 ],
+			"scale": [ 25.2548485, 31.8248653, 18.8942604 ],
+			"children": [ 489 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding244",
+			"translation": [ 481.099976, -0.5, 123.299995 ],
+			"rotation": [ 0, 0.242980182, -0, 0.970031261 ],
+			"scale": [ 26.7786617, 48.0708961, 26.7786617 ],
+			"children": [ 491 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding245",
+			"translation": [ 401.199982, -0.5, 89.1999969 ],
+			"rotation": [ 0, 0.242980182, -0, 0.970031261 ],
+			"scale": [ 26.3737316, 42.8937302, 26.3737316 ],
+			"children": [ 493 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding246",
+			"translation": [ 439.299988, -0.5, 107.799995 ],
+			"rotation": [ -0, -0.514102757, 0, 0.857728601 ],
+			"scale": [ 24.7730579, 31.478756, 19.0139942 ],
+			"children": [ 495 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding247",
+			"translation": [ 478, -0.5, 90.7999954 ],
+			"rotation": [ 0, 0.857728601, -0, 0.514102757 ],
+			"scale": [ 25.1012592, 21.2881985, 19.6963615 ],
+			"children": [ 497 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding248",
+			"translation": [ 456.399994, -0.5, 122 ],
+			"rotation": [ 0, 0.219101265, -0, 0.975702226 ],
+			"scale": [ 18.9021091, 21.2881985, 25.1747627 ],
+			"children": [ 499 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding249",
+			"translation": [ 412.599976, -0.5, 127.5 ],
+			"rotation": [ 0, 0.219101265, -0, 0.975702226 ],
+			"scale": [ 26.3478184, 63.9488525, 26.3478184 ],
+			"children": [ 501 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding250",
+			"translation": [ 402.899994, -0.5, 19.6000004 ],
+			"rotation": [ 0, 0.195090353, -0, 0.98078537 ],
+			"scale": [ 18.0623169, 21.2881985, 25.1876163 ],
+			"children": [ 503 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding251",
+			"translation": [ 503.099976, -0.5, 36.7000008 ],
+			"rotation": [ 0, 0.219101265, -0, 0.975702226 ],
+			"scale": [ 26.3478184, 41.9015961, 26.3478184 ],
+			"children": [ 505 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding252",
+			"translation": [ 429.5, -0.5, 22.8999996 ],
+			"rotation": [ 0, 0.219101265, -0, 0.975702226 ],
+			"scale": [ 25.9494019, 42.8937302, 25.9494019 ],
+			"children": [ 507 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding253",
+			"translation": [ 451.399994, -0.5, 151.099991 ],
+			"rotation": [ 0, 0.195090353, -0, 0.98078537 ],
+			"scale": [ 17.2777615, 33.3000145, 24.7804699 ],
+			"children": [ 509 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding254",
+			"translation": [ 468.399994, -0.5, 172.099991 ],
+			"rotation": [ 0, 0.0980171412, -0, 0.99518472 ],
+			"scale": [ 23.2675343, 48.0708961, 23.2675343 ],
+			"children": [ 511 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding255",
+			"translation": [ 392.600006, -0.5, 169.099991 ],
+			"rotation": [ 0, 0.0490676835, -0, 0.998795569 ],
+			"scale": [ 12.1876402, 21.2881985, 23.9995995 ],
+			"children": [ 513 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding256",
+			"translation": [ 445.184937, -0.5, 207.876877 ],
+			"rotation": [ 0, 0.788346529, -0, 0.615231633 ],
+			"scale": [ 24.7234306, 31.478756, 14.5239573 ],
+			"children": [ 515 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding257",
+			"translation": [ 421.299652, -0.5, 213.184662 ],
+			"rotation": [ -0, -0.634393275, 0, 0.773010433 ],
+			"scale": [ 24.6341209, 21.2881985, 14.2897902 ],
+			"children": [ 517 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding258",
+			"translation": [ 512.684937, -0.5, 202.976868 ],
+			"rotation": [ 0, 0.671558976, -0, 0.740951121 ],
+			"scale": [ 23.9784355, 31.478756, 11.3924742 ],
+			"children": [ 519 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding259",
+			"translation": [ 520.899963, -0.5, 177.800003 ],
+			"rotation": [ 0, 0.653172851, -0, 0.757208824 ],
+			"scale": [ 24.4547443, 31.8248653, 13.2077503 ],
+			"children": [ 521 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding260",
+			"translation": [ 470, -0.5, 202.300003 ],
+			"rotation": [ 0, 0.773010433, -0, 0.634393275 ],
+			"scale": [ 24.7385254, 31.8248653, 14.2491808 ],
+			"children": [ 523 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding261",
+			"translation": [ 434.820892, -0.5, 176.386993 ],
+			"rotation": [ 0, 0.0980171412, -0, 0.99518472 ],
+			"scale": [ 14.2897911, 21.2881985, 24.6341209 ],
+			"children": [ 525 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding262",
+			"translation": [ 499.859161, -0.5, 230.326096 ],
+			"rotation": [ -0, -0.0980171412, 0, 0.99518472 ],
+			"scale": [ 23.2675343, 63.9488525, 23.2675343 ],
+			"children": [ 527 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding263",
+			"translation": [ 421, -0.5, 152.899994 ],
+			"rotation": [ 0, 0.122410677, -0, 0.992479563 ],
+			"scale": [ 24.0023575, 48.0708961, 24.0023575 ],
+			"children": [ 529 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding264",
+			"translation": [ 450.400818, -0.5, 234.549805 ],
+			"rotation": [ -0, -0.634393275, 0, 0.773010433 ],
+			"scale": [ 24.4162312, 32.6304741, 13.4884148 ],
+			"children": [ 531 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding265",
+			"translation": [ 425.299988, -0.5, 244.199997 ],
+			"rotation": [ -0, -0.671558976, 0, 0.740951121 ],
+			"scale": [ 21.6316357, 70.1181488, 21.6316357 ],
+			"children": [ 533 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding266",
+			"translation": [ 496, -0.5, 168 ],
+			"rotation": [ 0, 0.219101265, -0, 0.975702226 ],
+			"scale": [ 18.1005459, 24.7925663, 24.6740284 ],
+			"children": [ 535 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding267",
+			"translation": [ 490.983612, -0.5, 255.328827 ],
+			"rotation": [ 0, 0.989176512, -0, 0.146730483 ],
+			"scale": [ 15.4339409, 24.7925663, 24.6319561 ],
+			"children": [ 537 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding268",
+			"translation": [ 419.599976, -0.5, 181.399994 ],
+			"rotation": [ 0, 0.0735645741, -0, 0.997290552 ],
+			"scale": [ 12.4429131, 33.3000145, 24.1219082 ],
+			"children": [ 539 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding269",
+			"translation": [ 486, -0.5, 146.099991 ],
+			"rotation": [ 0, 0.219101265, -0, 0.975702226 ],
+			"scale": [ 18.9021091, 21.2881985, 25.1747627 ],
+			"children": [ 541 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding270",
+			"translation": [ 422.325104, -0.5, 271.017303 ],
+			"rotation": [ -0, -0.999698818, 0, 0.0245412365 ],
+			"scale": [ 10.2822142, 33.3000145, 23.4484768 ],
+			"children": [ 543 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding271",
+			"translation": [ 612.099976, -0.5, 46.7999992 ],
+			"rotation": [ 0, 0.146730468, -0, 0.989176512 ],
+			"scale": [ 24.6793556, 70.1181488, 24.6793556 ],
+			"children": [ 545 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding272",
+			"translation": [ 541.399963, -0.5, 64.0999985 ],
+			"rotation": [ 0, 0.0490676835, -0, 0.998795569 ],
+			"scale": [ 11.3391171, 17.2572117, 23.7242756 ],
+			"children": [ 547 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding273",
+			"translation": [ 590.599976, -0.5, 30.6999989 ],
+			"rotation": [ 0, 0.84485358, -0, 0.534997642 ],
+			"scale": [ 24.8297367, 20.8862324, 18.1741905 ],
+			"children": [ 549 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding274",
+			"translation": [ 545, -0.5, 102.399994 ],
+			"rotation": [ 0, 0.024541229, -0, 0.999698818 ],
+			"scale": [ 11.0320177, 18.4782085, 23.7112656 ],
+			"children": [ 551 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding275",
+			"translation": [ 528.099976, -0.5, 29.8999996 ],
+			"rotation": [ 0, 0.84485358, -0, 0.534997642 ],
+			"scale": [ 24.8297367, 20.8862324, 18.1741905 ],
+			"children": [ 553 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding276",
+			"translation": [ 546.5, -0.5, 126.699997 ],
+			"rotation": [ 0, 0.024541229, -0, 0.999698818 ],
+			"scale": [ 10.4262772, 15.1485281, 23.686018 ],
+			"children": [ 555 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding277",
+			"translation": [ 568.200012, -0.5, 42.2999992 ],
+			"rotation": [ -0, -0.534997642, 0, 0.84485358 ],
+			"scale": [ 25.1747627, 21.2881985, 18.9021091 ],
+			"children": [ 557 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding278",
+			"translation": [ 573.099976, -0.5, 147.099991 ],
+			"rotation": [ 0, 0.0490676835, -0, 0.998795569 ],
+			"scale": [ 11.5311718, 15.1485281, 24.0570869 ],
+			"children": [ 559 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding279",
+			"translation": [ 572.383606, -0.5, 211.228821 ],
+			"rotation": [ 0, 0.997290552, -0, 0.0735645816 ],
+			"scale": [ 12.4332371, 24.7925663, 24.0566769 ],
+			"children": [ 561 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding280",
+			"translation": [ 525.372009, -0.5, 230.005035 ],
+			"rotation": [ -0, -0.773010492, 0, 0.634393275 ],
+			"scale": [ 24.4760838, 20.8862324, 13.5003214 ],
+			"children": [ 563 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding281",
+			"translation": [ 596, -0.5, 183 ],
+			"rotation": [ 0, 0.653172851, -0, 0.757208824 ],
+			"scale": [ 24.4547443, 31.8248653, 13.2077503 ],
+			"children": [ 565 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding282",
+			"translation": [ 575.399963, -0.5, 171.599991 ],
+			"rotation": [ 0, 0.0490676835, -0, 0.998795569 ],
+			"scale": [ 12.1876402, 21.2881985, 23.9995995 ],
+			"children": [ 567 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding283",
+			"translation": [ 547.099976, -0.5, 150.599991 ],
+			"rotation": [ 0, 0.0490676835, -0, 0.998795569 ],
+			"scale": [ 12.1876402, 21.2881985, 23.9995995 ],
+			"children": [ 569 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding284",
+			"translation": [ 539.471985, -0.5, 205.305038 ],
+			"rotation": [ -0, -0.74095118, 0, 0.671558976 ],
+			"scale": [ 23.9196663, 20.8862324, 11.3866863 ],
+			"children": [ 571 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		},
+		{
+			"name": "BP_ApproximalBuilding285",
+			"translation": [ 544.799988, -0.5, 175.899994 ],
+			"rotation": [ -0, -0.0735645741, 0, 0.997290552 ],
+			"scale": [ 22.4766598, 63.9488525, 22.4766598 ],
+			"children": [ 573 ]
+		},
+		{
+			"name": "Cube",
+			"mesh": 1
+		}
+	],
+	"scenes": [
+		{
+			"name": "2222",
+			"nodes": [ 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98, 100, 102, 104, 106, 108, 110, 112, 114, 116, 118, 120, 122, 124, 126, 128, 130, 132, 134, 136, 138, 140, 142, 144, 146, 148, 150, 152, 154, 156, 158, 160, 162, 164, 166, 168, 170, 172, 174, 176, 178, 180, 182, 184, 186, 188, 190, 192, 194, 196, 198, 200, 202, 204, 206, 208, 210, 212, 214, 216, 218, 220, 222, 224, 226, 228, 230, 232, 234, 236, 238, 240, 242, 244, 246, 248, 250, 252, 254, 256, 258, 260, 262, 264, 266, 268, 270, 272, 274, 276, 278, 280, 282, 284, 286, 288, 290, 292, 294, 296, 298, 300, 302, 304, 306, 308, 310, 312, 314, 316, 318, 320, 322, 324, 326, 328, 330, 332, 334, 336, 338, 340, 342, 344, 346, 348, 350, 352, 354, 356, 358, 360, 362, 364, 366, 368, 370, 372, 374, 376, 378, 380, 382, 384, 386, 388, 390, 392, 394, 396, 398, 400, 402, 404, 406, 408, 410, 412, 414, 416, 418, 420, 422, 424, 426, 428, 430, 432, 434, 436, 438, 440, 442, 444, 446, 448, 450, 452, 454, 456, 458, 460, 462, 464, 466, 468, 470, 472, 474, 476, 478, 480, 482, 484, 486, 488, 490, 492, 494, 496, 498, 500, 502, 504, 506, 508, 510, 512, 514, 516, 518, 520, 522, 524, 526, 528, 530, 532, 534, 536, 538, 540, 542, 544, 546, 548, 550, 552, 554, 556, 558, 560, 562, 564, 566, 568, 570, 572 ]
+		}
+	]
+}
